@@ -51,10 +51,12 @@
                                 Gestão
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="{{route('admin.tipo_usuario.index')}}">Gerenciamento de Tipos de Usuário</a>
-                                <a class="dropdown-item" href="{{route('admin.estado.index')}}">Gerenciamento de Estados</a>
-                                <a class="dropdown-item" href="{{route('admin.cidade.index')}}">Gerenciamento de Cidades</a>
-                                <a class="dropdown-item" href="{{route('admin.unidade.index')}}">Gerenciamento de Unidades</a>
+
+                                <a class="dropdown-item" href="{{route('admin.estado.index')}}">Estados</a>
+                                <a class="dropdown-item" href="{{route('admin.cidade.index')}}">Cidades</a>
+                                <a class="dropdown-item" href="{{route('admin.unidade.index')}}">Unidades</a>
+                                <a class="dropdown-item" href="{{route('admin.tipo_usuario.index')}}">Tipos de Usuário</a>
+                                <a class="dropdown-item" href="{{route('admin.usuario.index')}}">Usuários</a>
                             </div>
                         </li>
                         <li class="nav-item">
